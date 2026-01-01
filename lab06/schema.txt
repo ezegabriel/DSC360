@@ -1,0 +1,68 @@
+Simplified Database Views for NL→SQL
+
+- v_books: book_id (PK), title, publisher, language, publication_date, num_pages, authors (CSV)
+- v_orders: order_id (PK), order_date, customer_id (FK), customer_name, email_masked, shipping_method, order_status, order_total (DECIMAL)
+- v_order_items: line_id (PK), order_id (FK), book_id (FK), title, publisher, line_total (DECIMAL)
+- v_customers: customer_id (PK), name, email_masked
+- v_sales_by_book: book_id (PK), title, publisher, units (INT), revenue (DECIMAL)
+
+Base Tables for gravity_books Schema
+
+- address: address_id (PK), street_number, street_name, city, country_id (FK)
+- address_status: status_id (PK), address_status
+- author: author_id (PK), author_name
+- book: book_id (PK), title, isbn13, language_id (FK), num_pages, publication_date, publisher_id (FK)
+- book_author: book_id (PK, FK), author_id (PK, FK) -- Primary Key is the combination of both columns
+- book_language: language_id (PK), language_code, language_name
+- country: country_id (PK), country_name
+- cust_order: order_id (PK), order_date, customer_id (FK), shipping_method_id (FK), dest_address_id (FK)
+- customer: customer_id (PK), first_name, last_name, email
+- customer_address: customer_id (PK, FK), address_id (PK, FK)
+- order_history: history_id (PK), order_id (FK), status_id (FK), status_date
+- order_line: line_id (PK), order_id (FK), book_id (FK), price (DECIMAL)
+- order_status: status_id (PK), status_value
+- publisher: publisher_id (PK), publisher_name
+- shipping_method: method_id (PK), method_name, cost (DECIMAL)
+
+
+
+Gravity Books (SELECT-only; always include LIMIT)
+
+[Views]
+v_books(book_id PK, title, publisher, language, publication_date, num_pages, authors_csv)
+v_orders(order_id PK, order_date, customer_id FK, customer_name, email_masked, shipping_method, order_status, order_total DECIMAL)
+v_order_items(line_id PK, order_id FK, book_id FK, title, publisher, line_total DECIMAL)
+v_customers(customer_id PK, name, email_masked)
+v_sales_by_book(book_id PK, title, publisher, units INT, revenue DECIMAL)
+
+[Tables]
+author(author_id PK, author_name)
+publisher(publisher_id PK, publisher_name)
+book_language(language_id PK, language_code, language_name)
+book(book_id PK, title, isbn13, language_id FK→book_language.language_id,
+     num_pages INT, publication_date DATE, publisher_id FK→publisher.publisher_id)
+book_author(book_id FK→book.book_id, author_id FK→author.author_id)  -- composite PK (book_id, author_id)
+customer(customer_id PK, first_name, last_name, email)
+address(address_id PK, street_number, street_name, city, country_id FK→country.country_id)
+address_status(status_id PK, address_status)
+customer_address(customer_id FK→customer.customer_id, address_id FK→address.address_id)  -- composite PK
+country(country_id PK, country_name)
+shipping_method(method_id PK, method_name, cost DECIMAL)
+order_status(status_id PK, status_value)
+cust_order(order_id PK, order_date DATE, customer_id FK→customer.customer_id,
+          shipping_method_id FK→shipping_method.method_id, dest_address_id FK→address.address_id)
+order_line(line_id PK, order_id FK→cust_order.order_id, book_id FK→book.book_id, price DECIMAL)
+order_history(history_id PK, order_id FK→cust_order.order_id, status_id FK→order_status.status_id, status_date DATE)
+
+[Join paths]
+book ↔ book_author ↔ author
+cust_order ↔ order_line ↔ book ↔ publisher
+cust_order ↔ customer ↔ customer_address ↔ address ↔ country
+cust_order ↔ order_history ↔ order_status
+(Use v_* views for quick rollups: v_orders, v_order_items, v_sales_by_book)
+
+[Notes]
+- Dates: cust_order.order_date; book.publication_date.
+- Revenue/units: prefer v_sales_by_book (revenue, units) or v_order_items.line_total.
+- SELECT-only; always include LIMIT.
+- IDs ending with _id are join keys; avoid cross joins; use linking tables (book_author, customer_address).
