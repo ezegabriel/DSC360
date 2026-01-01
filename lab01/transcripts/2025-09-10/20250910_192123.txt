@@ -1,0 +1,4 @@
+[2025-09-10T19:21:45][user] Define photosynthesis
+
+[2025-09-10T19:21:45][system] Error: model "gemma3:7b" not found, try pulling it first (status code: 404)
+

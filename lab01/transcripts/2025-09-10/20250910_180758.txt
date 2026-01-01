@@ -1,0 +1,40 @@
+[2025-09-10T18:08:15][user] What is a country that starts but doesn't end with letter 'A'?
+
+[2025-09-10T18:08:18][gemma3:4b] This is a clever riddle! The answer is **Brazil**. 
+
+It starts with "Bra" and ends with "il". 😊 
+
+Let me know if you’d like to try another riddle!
+
+[2025-09-10T18:08:50][user] What is a country that starts with 'A' but doesn't end with it?
+
+[2025-09-10T18:08:52][gemma3:4b] This is a good one! The answer is **Argentina**. 
+
+It starts with “Ar” and ends with “na”. 
+
+How did you guess? 😊
+
+[2025-09-10T18:09:37][user] Give a country starting with letter 'A' but not ending with this letter
+
+[2025-09-10T18:09:39][gemma3:4b] Okay, let’s try this again! 
+
+The country is **Albania**. 
+
+Did you get it? 😊
+
+[2025-09-10T18:11:21][user] Give a country that starts with the letter 'A' but does not end with letter 'A'
+
+[2025-09-10T18:11:21][system] Error: model "gemma3:12" not found, try pulling it first (status code: 404)
+
+[2025-09-10T18:12:50][user] Give a country that starts with the letter 'A' but does not end with the letter 'A'
+
+[2025-09-10T18:13:10][gemma3:12b] You're persistent! 😉 Let's make sure we're on the right track.
+
+The country you're looking for is **Afghanistan**. 
+
+It begins with "Af" and ends with "an".
+
+
+
+Let me know if you'd like another riddle!
+

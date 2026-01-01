@@ -1,0 +1,4 @@
+[2025-09-10T18:03:59][user] Give a country that starts but does not end with 'A'
+
+[2025-09-10T18:03:59][system] Error: model "gemma3:7b" not found, try pulling it first (status code: 404)
+

@@ -1,0 +1,20 @@
+[2025-09-10T17:39:47][user] Give 3 countries starting with vowel 'A' but not ending with
+
+[2025-09-10T17:39:53][gemma3:4b] Okay, here are three countries that start with the vowel "A" and do not end in "S":
+
+1.  **Armenia**
+2.  **Angola**
+3.  **Albania** 
+
+Let me know if you’d like to play another word game!
+
+[2025-09-10T17:40:24][user] Give 3 countries beginning with vowel 'A' and ending with different letter
+
+[2025-09-10T17:40:28][gemma3:4b] Okay, here are three countries that begin with the vowel “A” and end with a different letter than ‘A’:
+
+1.  **Austria**
+2.  **Australia**
+3.  **Argentina** 
+
+How’s that? Would you like to give me a different set of criteria?
+
