@@ -1,0 +1,5 @@
+{
+  "embedding_model": "mxbai-embed-large:latest",
+  "dimension": 1024,
+  "normalized": false
+}
