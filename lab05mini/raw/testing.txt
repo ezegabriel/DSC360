@@ -1,0 +1,50 @@
+POL 260 Intro to International Relations 3 b A. Hor 9:40-11:10AM --T-R-- CRNS 307
+MUS 120 Materials & Structure of Music I 3 a Z. Klobnak 12:40-2:10PM --T-R-- GRNT 403 E1, A
+BIO 210L BIO 210 Lab 0 b K. O'Quin 9:40-11:10AM --T-R-- YOUN 208
+ECO 220 Microeconomic Analysis 3 a A. Eddhir 2:20-3:50PM --T-R-- CRNS 301
+HIS 121 Cultivating the Wilderness 3 T. Strauch 12:40-1:40PM -M-W-F- GRNT 402 E2, S
+HIS 126 With Liberty and Justice for All 3 S. Egge 10:20-11:20AM -M-W-F- OLIN 124 E2, D
+BIO 360 Plant Biology 4 a J. Shaffer 12:40-1:40PM -M-W-F- YOUN 113
+MAT 110 Math in Our Society 3 a M. Saeed 3:00-4:00PM -M-W-F- OLIN 122
+THR 103 Modern Dance Performance 1 a Stephenson/Tomb 5:30-7:00PM --T-R-- GRNT 502
+THR 113 Special Topics in Production 1 a A. Kuznetsova TBA -------
+HIS 117 History of Concentration Camps 3 J. Earle 9:40-11:10AM --T-R-- CRNS 102 E2
+SPA 500 Senior Seminar 3 a P. Limerick 9:40-11:10AM --T-R-- YOUN 244
+CHE 132L CHE 132 Lab 0 c E. Wachter 12:40-3:40PM --T---- YOUN 202
+SPA 120 Beginning Spanish II 4 d W. Costley 10:20-11:20AM -M-W-F- CRNS 405
+HIS 117 History of Concentration Camps 3 J. Earle 12:40-2:10PM --T-R-- CRNS 102 E2
+THR 110 Scenic Practicum 1 b A. Kuznetsova TBA -------
+CHE 241 Organic Chemistry-I 4 a K. Paumi 8:00-9:00AM -M-W-F- YOUN 112
+BIO 110 Evolution, Biodiversity, Ecology 4 b M. Galatowitsch 9:10-10:10AM -M-W-F- YOUN 102 E3
+ECO 355 Environmental Economics 3 a D. Anderson 2:20-3:50PM --T-R-- YOUN 111 S
+PSY 210L PSY 210 Lab 0 a M. Cope 8:00-11:00AM ----R-- YOUN 213
+MAT 380 Real Analysis 3 a D. Neidmann 9:10-10:10AM -M-W-F- OLIN 122
+CSC 180 Systems Programming 4 a W. Bailey 9:10-10:10AM -M-W-F- OLIN 211
+MAT 185 Modern Calculus II 3 b J. Kilty 11:30-12:30PM -M-W-F- OLIN 109
+THR 113 Special Topics in Production 1 b A. Kuznetsova TBA -------
+SPA 120 Beginning Spanish II 4 b P. Limerick 9:10-10:10AM -M-W-F- CRNS 405
+CHE 370 Biological Chemistry 3 a E. Wachter 12:40-1:40PM -M-W-F- OLIN 202
+POL 363 American Foreign Policy 3 a W. Mehrabi 1:50-2:50PM -M-W-F- CRNS 401
+THR 200 Advanced Topics in Production 1 b A. Kuznetsova TBA -------
+PSY 320 Abnormal Psychology 3 b J. Wertz 11:30-12:30PM -M-W-F- YOUN 244
+PHI 330 19th Century Philosophy 3 a M. Gendreau 1:50-2:50PM -M-W-F- CRNS 468
+CSC 380 Operating Systems 3 a D. Toth 1:50-2:50PM -M-W-F- OLIN 211
+CSC 170 Programming and Problem Solving 4 a T. Allen 1:50-3:50PM -M-W-F- OLIN 208
+BIO 340L BIO 340 Lab 0 b D. Skidmore 9:40-11:10AM --T-R-- YOUN 226
+BIO 110L BIO 110 Lab 0 d C. O'Quin 12:40-3:40PM ----R-- YOUN 206
+BIO 210 Genetics 4 a A. Hale 9:10-10:10AM -M-W-F- YOUN 111 E3
+MAT 235 Modern Calculus III 3 a H. Pallage 10:20-11:20AM -M-W-F- OLIN 201
+PSY 210L PSY 210 Lab 0 b M. Cope 12:40-3:40PM ----R-- YOUN 213
+BIO 340L BIO 340 Lab 0 a D. Skidmore 8:00-9:30AM --T-R-- YOUN 226
+POL 309 Emotions and Politics 3 a A. Hor 2:20-3:50PM --T-R-- CRNS 307
+SPA 210 Intermediate Spanish I 3 a L. Aja Lopez 10:20-11:20AM -M-W-F- YOUN 245
+BIO 360L BIO 360 Lab 0 b J. Shaffer 12:40-3:40PM ----R-- YOUN 129
+THR 112 Costume Practicum 1 a A. Kuznetsova TBA -------
+CHE 132 General Chemistry-II 4 b K. Fulfer 10:20-11:20AM -M-W-F- OLIN 009 E3
+CSC 360 Software Design 3 a M. Bradshaw 8:00-9:00AM -M-W-F- OLIN 201
+DSC 340 Applied Machine Learning 3 a T. Allen 11:30-12:30PM -M-W-F- OLIN 208
+ECO 280 Data Analysis & Communication 3 c S. Davis 1:50-2:50PM -M-W-F- YOUN 102
+THR 112 Costume Practicum 1 b A. Kuznetsova TBA -------
+BIO 110L BIO 110 Lab 0 c C. O'Quin 8:00-11:00AM ----R-- YOUN 206
+BIO 500 Senior Seminar 3 a M. Galatowitsch 1:50-3:20PM -M-W--- TBA
+REL 249 Material Arts and East Asian Spiritual Traditions 3 a B. Bae 2:10-3:50PM --T-R-- OLIN 124 E2
