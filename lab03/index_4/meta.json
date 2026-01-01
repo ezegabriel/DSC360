@@ -1,0 +1,1 @@
+{"model": "nomic-embed-text", "dim": 768, "normalize": false, "chunker_params": {"target_chars": 1400, "max_chars": 1600, "min_words": 80, "min_chars": 400, "overlap_sentences": 3}}
