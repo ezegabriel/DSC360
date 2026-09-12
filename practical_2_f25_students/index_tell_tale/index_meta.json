@@ -1,0 +1,14 @@
+{
+  "created_utc": "2025-11-12T16:07:13.721286+00:00",
+  "gen_model": "gemma3:4b",
+  "embed_model": "mxbai-embed-large",
+  "k_history": 5,
+  "n_chunks": 18,
+  "n_questions": 111,
+  "files": [
+    "chunks.json",
+    "metadata.jsonl",
+    "embeddings.npy"
+  ],
+  "notes": "Embeddings are row-normalized; use dot-product for cosine similarity."
+}
