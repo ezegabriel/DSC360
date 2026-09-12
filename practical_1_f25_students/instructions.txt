@@ -1,0 +1,24 @@
+DSC 360 F25: Practical Test 1
+
+Complete four small Python programs (any order) within 1 hour:
+- guess.py – Keep conversation history so the model can guess effectively.
+- clickbait.py – Classify headlines as “clickbait” or “news” and compute accuracy.
+- match.py – Use cosine similarity from scratch to find the most relevant "document".
+- rag.py – Build a short context and ask the model to answer using only that context.
+
+What to do
+- Open each file and read the header.
+- Each script runs but is incomplete (stub).
+- Find and implement the function(s) you must edit.
+- You may add small helpers / print debugging.
+- Do not change provided data or helper utilities.
+- Run with: python3 filename.py
+- Verify outputs look reasonable.
+- Submit the four completed .py files.
+
+Timing
+- In-class: 1 hour.
+- After the break on Wednesday: ~48 hours to finish missed problems for up to 50% credit.
+
+Scoring
+- Problems worth 40, 30, 20, 10 points (completion-focused).
