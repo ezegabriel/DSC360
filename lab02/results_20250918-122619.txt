@@ -1,0 +1,56 @@
+Model: gemma3:270m
+Examples included: False
+Elapsed time: 83.32 seconds
+              precision    recall  f1-score   support
+
+    negative       0.20      0.65      0.31       179
+     neutral       0.58      0.43      0.50       615
+    positive       0.51      0.18      0.27       375
+
+    accuracy                           0.39      1169
+   macro avg       0.43      0.42      0.36      1169
+weighted avg       0.50      0.39      0.39      1169
+
+
+Model: gemma3:270m
+Examples included: True
+Elapsed time: 95.67 seconds
+              precision    recall  f1-score   support
+
+    negative       0.16      0.96      0.28       179
+     neutral       0.65      0.08      0.15       615
+    positive       0.49      0.06      0.10       375
+
+    accuracy                           0.21      1169
+   macro avg       0.43      0.37      0.18      1169
+weighted avg       0.52      0.21      0.15      1169
+
+
+Model: gemma3:1b
+Examples included: False
+Elapsed time: 258.34 seconds
+              precision    recall  f1-score   support
+
+    negative       0.39      0.95      0.55       179
+     neutral       0.86      0.50      0.63       615
+    positive       0.64      0.64      0.64       375
+
+    accuracy                           0.61      1169
+   macro avg       0.63      0.69      0.61      1169
+weighted avg       0.71      0.61      0.62      1169
+
+
+Model: gemma3:1b
+Examples included: True
+Elapsed time: 264.45 seconds
+              precision    recall  f1-score   support
+
+    negative       0.42      0.95      0.58       179
+     neutral       0.89      0.43      0.58       615
+    positive       0.58      0.72      0.64       375
+
+    accuracy                           0.60      1169
+   macro avg       0.63      0.70      0.60      1169
+weighted avg       0.72      0.60      0.60      1169
+
+
