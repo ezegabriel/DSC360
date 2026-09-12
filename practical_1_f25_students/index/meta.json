@@ -1,0 +1,14 @@
+{
+  "model": "mxbai-embed-large",
+  "dim": 1024,
+  "normalize": true,
+  "chunker": {
+    "target_chars": 1400,
+    "max_chars": 1800,
+    "min_words": 50,
+    "overlap_sents": 1
+  },
+  "counts": {
+    "chunks": 1522
+  }
+}
