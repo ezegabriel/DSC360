@@ -1,0 +1,15 @@
+Wrote 150 rows to out/sections_train.csv
+Wrote 50 rows to out/sections_test.csv
+Field-level Exact Match (EM):
+  program   : 1.00
+  number    : 1.00
+  section   : 1.00
+  title     : 0.72
+  credits   : 1.00
+  days      : 0.96
+  times     : 1.00
+  room      : 1.00
+  faculty   : 0.76
+  tags      : 1.00
+
+Row-level EM: 0.60
